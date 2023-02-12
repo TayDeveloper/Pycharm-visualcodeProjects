@@ -1,0 +1,22 @@
+
+desafio = input("Bom dia, Informe seu nome para podermos iniciar o seu atendimento ?\n ")
+print(desafio , " , seja bem vindo ao Hotel Anacã!\n" )
+cafe = input("O que o senhor(a) gostaria para o café da manhã?\n ")
+print("Ah! Entendi, só para não esquecer o senhor(a) pediu: " , cafe , "Certo?\n")
+print("Senhor (a)" , desafio)
+print( "Agora apenas para finalizarmos o atendimento, informe os dados abaixo para fins de cadatramento\n" )
+dia = input("Dia do Nascimento\n ")
+mês = input("Mês do Nascimento\n ")
+ano = input("Ano do Nascimento\n ")
+print("Sua data de Nascimento completa é: " , dia +"/" + mês + "/" + ano)
+pula = input("\n")
+print("para comprovar que você não é um robo, responda abaixo\n")
+
+n1 = float(input("Digite um número:\n "))
+
+n2 = float(input("Digite outro número:\n "))
+
+print("Resultado: " ,  n1 + n2)
+
+print("Seu pedido foi realizado com sucesso!!!")
+

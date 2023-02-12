@@ -1,0 +1,27 @@
+#Crie um script Python que leia o nome de uma pessoa e mostre uma mensagem
+#de boas - vindas de acordo com o valor digitado
+
+desafio = input("Bom dia, qual seu nome ? ")
+
+#Usar + quando tiver apenas em letra ou em números, se for MISTO usaar virgula.
+print(desafio , " seja muito bem vinda ao aprendizado de Python !!!" )
+
+#Crie um script Python que leia o dia, o mês e o ano  de nascimento de uma pessoa e mostre uma mensagem com a data formatada
+
+print("Digite abaixo os seguintes dados ")
+dia = input("Dia do Nascimento ")
+mês = input("Mês do Nascimento ")
+Ano = input("Ano do Nascimento ")
+
+
+print("Data de Nascimento: " , dia +"/" + mês + "/" + Ano )
+
+
+#Crie um script Python que leia dois números  e tente mostrar a soma entre eles
+
+n1 = float(input("Digite um número: "))
+
+n2 = float(input("Digite outro número: "))
+
+print("Resultado: " ,  n1 + n2)
+
